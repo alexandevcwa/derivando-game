@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2024-05-22T08:13:57.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="3aQCdOT1yl16v8ZIc8Ku" version="24.2.5" type="device">
+  <diagram name="Page-1" id="w7h6rd40IepmSJMR_WV6">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-1" target="EL8wqKt5EBaTt8nvVP63-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="38.75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-2" value="El usuario selecciona un nivel de derivación" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="37.5" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-5" target="EL8wqKt5EBaTt8nvVP63-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-5" value="Se depliega el listado de derivadas según el nivel seleccionado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="37.5" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-2" target="EL8wqKt5EBaTt8nvVP63-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-7" target="EL8wqKt5EBaTt8nvVP63-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-7" value="Si el usuario selecciona una de las derivadas del nivel que selecciono, inicia el juego" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;spacingTop=0;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="37.5" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-9" target="EL8wqKt5EBaTt8nvVP63-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-9" value="Se despliega la derivada y tambien el primer procedimiento para resolverla, este procedimiento tiene 3 posibles respuestas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;spacingTop=0;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EL8wqKt5EBaTt8nvVP63-11" target="EL8wqKt5EBaTt8nvVP63-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-11" value="Al seleccionar uno de los 3 procedimientos, si es el correcto, debe de cargar el siguiete, si es el incorrecto, debe de mostrar un mensaje de error" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;spacingTop=0;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EL8wqKt5EBaTt8nvVP63-13" value="Al finalizar todos los procedimientos correctamente, debe de mostrar un mensaje de exito al finalizar la derivada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;spacingTop=0;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="280" height="82.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

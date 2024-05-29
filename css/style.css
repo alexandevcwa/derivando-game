@@ -1,0 +1,454 @@
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: (url "../fonts/Biryani/Biryani-Regular.ttf") format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0,
+    U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Biryani/Biryani-Regular.ttf") format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Biryani/Biryani-Regular.ttf") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Biryani/Biryani-Bold.ttf") format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0,
+    U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Biryani/Biryani-Bold.ttf") format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Biryani";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Biryani/Biryani-Bold.ttf") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-size-s: 1.2rem;
+  --font-size-m: 1.4rem;
+  --font-size-l: 1.6rem;
+  --font-size-xl: 2.4rem;
+  --font-size-xxl: 3.2rem;
+  --font-size-xxxl: 4rem;
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+p {
+  font-size: var(--font-size-xl);
+}
+
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.header__container {
+  max-width: 102.4rem;
+  width: 100%;
+  height: 6rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__title {
+  color: red;
+  font-size: var(--font-size-xxxl);
+  margin: 0;
+}
+
+.nav__links {
+  display: block;
+}
+
+.nav__links-list {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 4rem;
+  width: auto;
+}
+
+.nav__links-list li :hover {
+  background-color: black;
+  color: white;
+}
+
+.nav__link {
+  color: black;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 0 2rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  font-size: var(--font-size-xxl);
+}
+
+.nav__link :hover {
+  background-color: black;
+}
+
+.nav__link--github {
+  background-color: black;
+  color: white;
+}
+
+li > .nav__link--github:hover {
+  background-color: rgb(86, 86, 86);
+}
+
+.nav__link--jugar {
+  background-color: red;
+  color: white;
+}
+
+li > .nav__link--jugar:hover {
+  background-color: rgb(113, 188, 0);
+}
+
+.main__container {
+  background-color: rgb(226, 226, 226);
+}
+
+.main__content {
+  max-width: 102.4rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.spotify__container {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  border: 0.1rem solid rgb(185, 185, 185);
+  width: 35%;
+}
+
+.spotify__container > h2 {
+  margin: 0;
+}
+
+.spotify__podcasts-list {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.articles__container {
+  max-width: 65%;
+  padding: 1rem;
+  padding-right: 0;
+}
+.article__card {
+  background-color: white;
+  border: 0.1rem solid rgb(185, 185, 185);
+  border-radius: 0.8rem;
+  padding: 2rem;
+  height: 100%;
+}
+.article__card > article {
+  height: 100%;
+}
+
+.article__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.article__information h2 {
+  margin: 0;
+}
+
+.article_contenido {
+  font-size: var(--font-size-l);
+  font-family: "Biryani";
+  font-weight: 700;
+}
+
+.article_contenido p,
+.article__author,
+.article__date {
+  margin: 0.5rem 0;
+  font-size: var(--font-size-m);
+  color: grey;
+}
+
+.article__tag {
+  padding: 0 1rem;
+  margin-right: 1rem;
+  background-color: black;
+  color: white;
+  font-size: var(--font-size-m);
+  border-radius: 1rem;
+}
+
+/*Noticias de Interes*/
+
+.blogs__containers {
+  max-width: 102.4rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 0.8rem;
+  border: 0.1rem solid rgb(185, 185, 185);
+}
+
+.blogs__cards {
+  padding: 2rem;
+}
+
+.blogs__cards > h2 {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.blogs__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.blog__card {
+  box-sizing: border-box;
+  width: 30rem;
+  max-width: 32rem;
+  padding: 1rem;
+  background-color: white;
+  height: 32rem;
+}
+
+.blog__card-container {
+  border: 0.1rem solid rgb(185, 185, 185);
+  overflow: hidden;
+  border-radius: 0.8rem;
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog__banner {
+  overflow: hidden;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.blog__image {
+  width: 100%;
+  height: 100%;
+}
+
+.blog__content {
+  padding: 1rem;
+  height: 16rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.blog__content > h3 {
+  margin: 0;
+}
+
+.blog__title {
+  font-size: var(--font-size-xl);
+}
+
+.blog__actions {
+  width: 100%;
+  text-align: end;
+  height: 3rem;
+}
+
+.blog__link {
+  color: white;
+  border-radius: 0.6rem;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  font-size: var(--font-size-xl);
+  padding: 0 1rem;
+  background-color: black;
+}
+
+.blog__link:hover {
+  background-color: red;
+}
+
+/*Footer*/
+footer {
+  font-size: var(--font-size-m);
+}
+
+footer a {
+  color: gray;
+}
+
+@media (max-width: 102.4rem) {
+  .header__container {
+    padding: 0 2rem;
+  }
+
+  .main__container {
+    padding: 0 2rem;
+  }
+}
+
+/*Media Queries para dispositivos moviles*/
+@media (max-width: 768px) {
+  header {
+    position: fixed;
+  }
+  .main__container {
+    padding-top: 6rem;
+    padding: 0;
+  }
+
+  .header__container {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .main__content {
+    flex-direction: column;
+  }
+  .nav__links {
+    display: none;
+  }
+
+  .spotify__container {
+    margin: 0;
+    border-radius: 0;
+    text-align: center;
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .articles__container {
+    max-width: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .article__card {
+    border-radius: 0;
+  }
+
+  .article__information h2 {
+    text-align: center;
+  }
+
+  .blogs__cards > h2 {
+    text-align: center;
+  }
+
+  .blogs__list {
+    justify-content: center;
+  }
+}

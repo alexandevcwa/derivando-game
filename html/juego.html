@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derivando Game</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/juego.css">
+    <link rel="stylesheet" href="../css/hover-min.css" media="all">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<body>
+    <dialog id="game__dialog-alerta" class="game__dialog">
+        <div class="dialog__content">
+            <svg xmlns="http://www.w3.org/2000/svg" height="64" width="64"
+                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#FFD43B"
+                    d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
+            </svg>
+            <h3>RESPUESTA INCORRECTA, CONSULTA LAS AYUDAS PARA PODER RESOLVER EL PROCEDIMIENTO</h3>
+            <button autofocus id="game__dialog-button-alerta" class="game__dialog-button">CERRAR</button>
+        </div>
+    </dialog>
+    <dialog id="game__dialog-informacion" class="game__dialog">
+        <div class="dialog__content">
+            <svg xmlns="http://www.w3.org/2000/svg" height="64" width="64"
+                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#00ff4c"
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+            </svg>
+            <h3>🎉 HAS RESUELTO TODA LA DERIVADA, FELICITACIONES 🎉</h3>
+            <button autofocus id="game__dialog-button-informacion" class="game__dialog-button">CERRAR</button>
+        </div>
+    </dialog>
+
+    <dialog id="dialog__formulario" class="dialog__formulario game__dialog">
+        <h2>FORMULARIO</h2>
+        <ul class="formulario__lista">
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de una constante</p>
+                <p class="formula__contenido">\[\frac{d}{dx} c = 0\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de \(x\)</p>
+                <p class="formula__contenido">\[\frac{d}{dx} x = 1\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de una potencia de \(x\)</p>
+                <p class="formula__contenido">\[\frac{d}{dx} x^n = nx^{n-1}\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la suma</p>
+                <p class="formula__contenido">\[\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del producto</p>
+                <p class="formula__contenido">\[\frac{d}{dx} [f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)\]
+                </p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del cociente</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \left( \frac{f(x)}{g(x)} \right) = \frac{f'(x) \cdot g(x) -
+                    f(x) \cdot g'(x)}{[g(x)]^2}\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la función exponencial</p>
+                <p class="formula__contenido">\[\frac{d}{dx} e^x = e^x\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de una función exponencial con base \(a\):</p>
+                <p class="formula__contenido">\[\frac{d}{dx} a^x = a^x \ln(a)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del logaritmo natural</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \ln(x) = \frac{1}{x}\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del logaritmo en base \(a\)</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)}\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del seno</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \sin(x) = \cos(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del coseno</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \cos(x) = -\sin(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la tangente</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \tan(x) = \sec^2(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la cotangente</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \cot(x) = -\csc^2(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la secante</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \sec(x) = \sec(x) \tan(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada de la cosecante</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)\]</p>
+            </li>
+            <li class="formulario__formula">
+                <p class="formula__titulo">Derivada del cociente de dos funciones</p>
+                <p class="formula__contenido">\[\frac{d}{dx} \left( \frac{f(x)}{g(x)} \right) = \frac{f'(x) \cdot g(x) -
+                    f(x) \cdot g'(x)}{[g(x)]^2}\]</p>
+            </li>
+        </ul>
+        <button id="dialog__formulario-cerrar" class="game__dialog-button">CERRAR FORMULARIO</button>
+    </dialog>
+
+    <div class="formulario" title="Formulario" id="formulario">
+        <img src="../images/vector-pi.jpg" alt="pi">
+    </div>
+    <header>
+        <div class="header__container">
+            <div class="logo">
+                <div class="logo__container">
+                    <h1 class="logo__title">F(X) = DERIVANDO GAME</h1>
+                </div>
+            </div>
+            <nav class="nav__links">
+                <ul class="nav__links-list">
+                    <li>
+                        <a href="../html/tutoriales.html" id="button_tutorial" class="nav__link hvr-grow">WikiHow</a>
+                    </li>
+                    <li>
+                        <a href="../html/wiki.html" id="button_videos" class="nav__link hvr-grow">VIDEOS</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/alexandevcwa/derivando-game" id="button_github"
+                            class="nav__link hvr-grow nav__link--github">GITHUB</a>
+                    </li>
+                    <li>
+                        <a href="#" id="button_play" class="nav__link hvr-grow nav__link--jugar">JUGAR</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main__container">
+        <div class="main__content">
+            <div class="main__niveles">
+                <div class="niveles__container">
+                    <h2>Niveles</h2>
+                    <ul class="niveles__cards">
+                        <li class="card__nivel hvr-grow" id="nivel_1">
+                            <div class="card__content">
+                                <h3>f(x) = (Nivel #1 - Principiante 🫣)</h3>
+                            </div>
+
+                        </li>
+                        <li class="card__nivel hvr-grow" id="nivel_2">
+                            <div class="card__content">
+                                <h3>f(x) = (Nivel #2 - Que Pro 😮)</h3>
+                            </div>
+
+                        </li>
+                        <li class="card__nivel hvr-grow" id="nivel_3">
+                            <div class="card__content">
+                                <h3>f(x) = (Nivel #3 - Eres Ingeniero 😍)</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="game__container">
+                <div class="game__derivadas" id="game-container">
+
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <ul style="color: white;">
+            <li>Copyrights 2024</li>
+            <li>PowerBy: AlexanDev_CWA Dev.</li>
+            <li>GiiHub: <a href="https://github.com/alexandevcwa">AlexanDev_CWA</a></li>
+        </ul>
+    </footer>
+</body>
+<script src="../js/main.js"></script>
+
+</html>

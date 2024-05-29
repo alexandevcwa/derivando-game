@@ -1,0 +1,427 @@
+.niveles__container {
+  min-width: 38rem;
+  max-width: 38rem;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  background-color: white;
+  border: 2px solid gray;
+  padding: 0 2rem;
+  height: auto;
+}
+
+.niveles__container > h2 {
+  margin: 1rem 0;
+}
+
+.niveles__cards {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__nivel {
+  padding: 1rem;
+}
+
+.card__content {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 0.8rem;
+}
+
+.card__content:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+.card__content > h3 {
+  margin: 1rem 0;
+}
+
+.game__container {
+  width: 100%;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+/* MENU DE SELCCION DE DERIVADAS */
+.game__derivadas {
+  /*display: none;*/
+  min-height: 80vh;
+  border-radius: 0.8rem;
+  padding: 0 2rem;
+  padding-bottom: 1rem;
+  border: 2px gray solid;
+  background-color: white;
+}
+
+.game__derivadas-container {
+  margin-bottom: 2rem;
+}
+
+.game__derivadas-titulo {
+  margin: 1rem 0;
+}
+
+.derivadas__menu {
+  margin: 0;
+  padding: 0;
+}
+
+.derivadas__opcion {
+  font-size: var(--font-size-l);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+}
+
+.derivadas__derivada {
+  margin: 0;
+}
+
+.derivadas__derivada * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.derivadas__derivada-jugar {
+  height: 4rem;
+  font-size: var(--font-size-xl);
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 0 0 0.6rem 0.6rem;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.derivadas__derivada-jugar:hover {
+  background-color: rgb(76, 0, 255);
+  border: 1px solid rgb(76, 0, 255);
+}
+
+/* FIN MENU */
+
+/* ESTILOS PARA EL CONTENEDOR PARA RESOLVER UNA DERIVADA */
+.derivada__container {
+}
+
+.derivada__resolver {
+  font-size: var(--font-size-xl);
+  border: 2px solid black;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.derivada__resolver * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.derivada__procedimiento-container {
+  border: 2px solid black;
+  border-radius: 0.8rem;
+  padding: 0 1rem;
+}
+
+.derivada__ayudas {
+  width: 100%;
+}
+
+.procedimiento__ayuda-titulo {
+  margin: 1rem 0;
+}
+
+.derivada__ayuda {
+  display: block;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.derivada__ayuda-tip {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.derivada__ayuda-tip * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.derivada__ayuda-link {
+  color: blue;
+}
+
+.derivada__procedimiento-opciones {
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+
+.procedimiento__opciones {
+  margin: 0;
+  padding: 0;
+}
+
+.procedimiento__nivel {
+  border: 2px solid black;
+  border-radius: 0.8rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+
+.procedimiento__soluciones {
+  border: 0;
+  padding: 0;
+}
+
+.procedimiento__opcion {
+  width: 100%;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+}
+
+.procedimiento__opcion-derivada {
+  font-size: 2rem;
+  width: 100%;
+  margin: 0;
+}
+
+.procedimiento__opcion-derivada * {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.procedimiento__button {
+  width: 100%;
+  border: 0;
+  font-size: 2rem;
+  border-radius: 0 0 0.6rem 0.6rem;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.procedimiento__button:hover {
+  background-color: blue;
+}
+
+/* FIN */
+
+/* Estilo para dialogos */
+
+@keyframes dialog__open-aimation {
+  0% {
+    transform: scale(0.2);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: translateX(1);
+  }
+}
+
+.game__dialog {
+  border: 1px solid gray;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 40px 1px rgb(121, 121, 121);
+  max-width: 96vw;
+  transition: transform 0.3s ease-out, opacity 0.3 ease-out;
+}
+
+.game__dialog[open] {
+  animation: dialog__open-aimation 0.3s ease-in;
+}
+
+.dialog__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.game__dialog-button {
+  font-size: var(--font-size-xl);
+  width: 100%;
+}
+
+.game__information > figure {
+  margin: 0;
+  width: 100%;
+  background-color: red;
+}
+
+.game__information > figure > img {
+  width: 100%;
+}
+
+.game__main {
+  border-top: 1px gray solid;
+}
+
+.game__section {
+}
+
+.game__content {
+}
+
+/* Título principal */
+.game__content > h2 {
+  margin: 2rem 0;
+}
+
+/* Contenedor de derivada a resolver */
+.game__derivada-container {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 2px gray solid;
+}
+
+.game__derivada {
+  font-size: var(--font-size-xl);
+}
+
+/* Contenido de la derivada a resolver <p> */
+.game__derivada * {
+  margin: 1rem 0;
+  /*font-size: var(--font-size-xl);*/
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor de procedimiento <ul> */
+.game__derivada-procedimientos {
+  padding: 0;
+}
+
+/* Contenedor de opción para seleccionar el procedimiento correcto
+contiene ayuda, posible procedimientos para seleciconar */
+.game__derivada-procedimiento {
+}
+
+/* Contenedor de ayuda para resolver el procedimiento */
+.game__procedimiento-ayuda {
+}
+
+/* Contenedor de ayudas para resolver el procedimiento de la derivada */
+.game__procedimiento-ayuda-contenidor * {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* titulo de ayuda */
+.game__procedimiento-ayuda > h2 {
+  margin: 1rem 0;
+}
+
+.game__derivada-opciones {
+}
+
+/* titulo de procedimiento */
+.game__derivada-opciones > h2 {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.game__derivada-opciones-lista {
+  padding: 0;
+}
+
+.game__derivada-opcion {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 0.8rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.game__derivada-opcion-contenidor * {
+  margin: 1rem 0;
+  font-size: var(--font-size-xl);
+  font-family: Arial, sans-serif;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.game__derivada-procedimiento {
+  border: 2px solid gray;
+  border-radius: 0.8rem;
+  padding: 0 1rem;
+}
+.game__derivada-funcion {
+  width: 100%;
+  padding-right: 1rem;
+
+  text-align: right;
+}
+
+.game__derivada-button {
+  font-size: 2rem;
+  width: 14rem;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 0.4rem;
+}
+
+/* ESTILOS PARA CONTENEDOR DE SELECCION DE DERIVADA A JUGAR */
+.game__information {
+  background-color: red;
+}
+
+/* BOTON PARA ACCEDER A FORMULARIO */
+.formulario {
+  overflow: hidden;
+  height: 6rem;
+  width: 6rem;
+  background-color: red;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 50%;
+  right: 2rem;
+  bottom: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 15px 2px black;
+}
+
+.formulario > img {
+  height: inherit;
+}
+
+.dialog__formulario {
+  padding: 2rem;
+}
+
+.formulario__lista {
+  padding: 0;
+}
+
+.formulario__formula {
+  border: 1px solid gray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+}
+
+.formula__titulo {
+  margin: 0;
+  text-align: center;
+}
+
+.formula__contenido {
+  font-size: var(--font-size-l);
+}
+
+.formula__contenido * {
+  font-family: Arial, Helvetica, sans-serif;
+}

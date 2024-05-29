@@ -1,0 +1,1099 @@
+[
+  {
+    "nivel": 1,
+    "derivadas": [
+      {
+        "indice": 1,
+        "tag": "derivada_1_1",
+        "derivada": "\\[f(x) = \\frac{x^2 + 2x + 1}{x + 1}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x + 1)(2x + 2) - (x^2 + 2x + 1)(1)}{(x + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_1_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x + x)(x + 2) - (x^3 + 2x + 10)(2)}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x + 1)(2x^2 + 4) - (x^2 + 2x + 1)(1)}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "../post.html",
+              "video": "",
+              "link": "",
+              "tip": "Cuando no es posible simplificar fácilmente, usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\)."
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 4x + 2) - (x^2 + 2x + 1)}{(x + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_1_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x + 4x + 4) - (x^3 + 2x)}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 8x + 2) - (x^2 + x + 1)}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "YouTube.com",
+              "link": "https://link.com",
+              "tip": "Asegúrate de simplificar correctamente el numerador antes de proceder con la división. Combina y reduce los términos semejantes para obtener una expresión más manejable."
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{x^2 + 2x + 1}{(x + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_1_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x^2 + x + 2}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{2x^2 + 2x + 1}{(x + 1)^4}\\]",
+                "tag": false,
+                "id": "solucion_1_1_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "YouTube.com",
+              "link": "https://link.com",
+              "tip": "Observa si el numerador y el denominador tienen factores comunes que se puedan cancelar para simplificar la fracción. Esto puede hacer que la expresión sea más fácil de manejar."
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x + 1)^2}{(x + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_1_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x + 3)^3}{(2x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x + 2x)^2}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_1_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "YouTube.com",
+              "link": "https://link.com",
+              "tip": "Cuando el numerador y el denominador son idénticos, puedes cancelarlo"
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = 1\\]",
+                "tag": true,
+                "id": "solucion_1_1_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = x\\]",
+                "tag": false,
+                "id": "solucion_1_1_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = x^2\\]",
+                "tag": false,
+                "id": "solucion_1_1_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "YouTube.com",
+              "link": "https://link.com"
+            }
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "tag": "derivada_1_2",
+        "derivada": "\\[f(x) = \\frac{3x^2 - 4}{x}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(6x) - (3x^2 - 4)(1)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_2_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(3x) - (x^2 - 4)(1)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(6x^2) - (3x - 4)(2)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": "",
+              "tip": "\\textbf{Tip:} Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{6x^2 - (3x^2 - 4)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_2_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{6x - (6x^2 - 4)}{e^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{6x^2 - (3x^6 - 4)}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": "",
+              "tip": "\\textbf{Tip:} Asegúrate de distribuir correctamente el signo negativo al expandir la resta en el numerador."
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{6x^2 - 3x^2 + 4}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_2_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{6x^2 - 5x^2 + 4}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{6x^2 - (3x^6 - 4)}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": "",
+              "tip": "\\textbf{Tip:} Simplifica el numerador combinando términos semejantes antes de proceder a la división."
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2 + 4}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_2_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2 + 4}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x + 4}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": "",
+              "tip": "\\textbf{Tip:} Divide cada término del numerador por el denominador para simplificar la fracción."
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = 3 + \\frac{4}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_2_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = 1 + \\frac{4}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = 3 + \\frac{1}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 3,
+        "tag": "derivada_1_3",
+        "derivada": "\\[f(x) = \\frac{x + 2}{x - 2}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x^2 - 2)(4) - (2x + 2)(1)}{(2x - 2)}\\]",
+                "tag": false,
+                "id": "solucion_1_3_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{x - 2 - x - 2}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x - 2x - x - 2}{(x^2 - 2)}\\]",
+                "tag": false,
+                "id": "solucion_1_3_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x^2 - 2 - x - 2x}{(x - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-4}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4}{(x - 2x)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-2}{(x^2 - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 4,
+        "tag": "derivada_1_4",
+        "derivada": "\\[f(x) = \\frac{2x^2 + 3x + 1}{x^2 + 1}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x^2 + 1)(4x + 3) - (2x^2 + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 2)(4 + 3) - (x^2 + 3x)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 1)(4x + 3) - (2x + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x^3 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^2 + 3x^2 + 4) - (x^3 + 6x^2 + 2x)}{(x^2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x2 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^2 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^3 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^2 + 3x^2 + 4x + 3 - 4x^3 - 8x^2 - 2x}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^2 + 2x + 3}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2 + 2x - 3}{(x^2 + 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-2x^2 + 2x + 3}{(x^2 + 6)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 5,
+        "tag": "derivada_1_5",
+        "derivada": "\\[f(x) = \\frac{sin(x)}{x}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(cos(x)) - (sin(x))(1)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(-cos(x)) - (cos(2x))(1)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(cos(2x)) - (csc(x))(1)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\sin(x)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x^2) - \\sin(2x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\tan(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{\\csc(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\tan(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "derivadas": [
+      {
+        "indice": 1,
+        "tag": "derivada_2_1",
+        "derivada": "\\[f(x) = \\frac{\\sqrt[5]{x^{3}}}{x^{5} + 3x^{2} - 4x}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{(x^{5}+3x^{2}-4x)\\cdot(\\frac{3}{5}x^{-\\frac{2}{5}})-(x^{\\frac{3}{5}})\\cdot(5x^{4}+6x-4)}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": true,
+                "id": "solucion_2_1_1_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(x^{8}+3x^{2}-6x)\\cdot(\\frac{3}{5}x^{-\\frac{2}{5}})-(x^{\\frac{3}{5}})\\cdot(5x^{4}+2x-4)}{(x^{5}+3x^{2}-3x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_1_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(x^{5}+3x^{4}-4x)\\cdot(\\frac{2}{5}x^{-\\frac{x}{5}})-(x^{\\frac{3}{5}})\\cdot(1x^{4}+6x-4)}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "../post.html",
+              "video": "https://www.youtube.com/watch?v=xr0_7dPW-Iw&t=424s",
+              "link": "https://www.funciones.xyz/derivada-de-una-raiz-funcion-radical-irracional/",
+              "tip": "Recuerda que debes de convertir términos de raíz cuadrada a potencias para derivar de una manera mas fácil, puedes consultar el video de ayuda y el link de ayuda para aprende mucho mas."
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{(\\frac{3}{5}x^{\\frac{23}{5}}+\\frac{9}{5}x^{\\frac{8}{5}}-\\frac{12}{5}x^{\\frac{3}{5}})-(5x^{\\frac{23}{5}}+6x^{\\frac{8}{5}}-4x^{\\frac{3}{5}})}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": true,
+                "id": "solucion_2_1_2_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(\\frac{3}{8}x^{\\frac{23}{5}}+\\frac{9}{2}x^{\\frac{8}{5}}-\\frac{14}{5}x^{\\frac{3}{5}})-(5x^{\\frac{23}{5}}+6x^{\\frac{8}{5}}-4x^{\\frac{3}{5}})}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_2_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(\\frac{x}{5}x^{\\frac{23}{x}}+\\frac{9}{5}x^{\\frac{8}{10}}-\\frac{12}{5}x^{\\frac{3}{5}})-(5x^{\\frac{23}{5}}+6x^{\\frac{8}{5}}-4x^{\\frac{3}{5}})}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "https://www.youtube.com/watch?v=cotRZEAIdJg",
+              "link": "https://matesfacil.com/ESO/polinomios/multiplicar-polinomios-binomios-trinomios-producto-multiplicacion-ejercicios-resueltos.html",
+              "tip": "Recuerda multiplicar polinomios de numerador resultante de la derivación base, para poder llegar a un termino mas manejable, puedes consultar las ayudas para aprender a como hacerlo."
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f(x)=\\frac{\\frac{22}{5}x^{\\frac{23}{5}}-\\frac{21}{5}x^{\\frac{8}{5}}+\\frac{8}{5}x^{\\frac{3}{5}}}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": true,
+                "id": "solucion_2_1_3_1"
+              },
+              {
+                "solucion": "\\[f(x)=\\frac{\\frac{19}{5}x^{\\frac{21}{5}}-\\frac{21}{5}x^{\\frac{6}{5}}+\\frac{8}{5}x^{\\frac{3}{5}}}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_3_2"
+              },
+              {
+                "solucion": "\\[f(x)=\\frac{\\frac{8}{5}x^{\\frac{23}{5}}-\\frac{21}{5}x^{\\frac{8}{x}}+\\frac{8}{5}x^{\\frac{3}{5}}}{(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "archivo.html",
+              "video": "https://www.youtube.com/watch?v=6Ebtcsc5A3Y",
+              "link": "https://www.matematicatuya.com/NIVELACION/ALGEBRA/Simplificar/polinomios.html",
+              "tip": "Recuerda que debes de recudir los términos semejantes para poder reducir la expresión a un menor termino, si tienes fracción sobre fracción puedes aplicar la ley del sandwich , si no recuerdas como, puedes consultar el link de ayuda y el video de ayuda."
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{-22x^\\frac{23}{5}-21x^\\frac{8}{5}+8x^\\frac{3}{5}}{5}}{(x^5+3x^2-4x)^2}\\]",
+                "tag": true,
+                "id": "solucion_2_1_4_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{-22x^\\frac{53}{5}-21x^\\frac{8}{5}+8x^\\frac{5}{5}}{5}}{(x^5+3x^2-4x)^5}\\]",
+                "tag": false,
+                "id": "solucion_2_1_4_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{22x^\\frac{21}{5}-2x^\\frac{8}{5}+8x^\\frac{5}{5}}{5}}{(x^5+3x^2-4x)^5}\\]",
+                "tag": false,
+                "id": "solucion_2_1_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=Z_5uqNVIbK8",
+              "link": "https://edu.gcfglobal.org/es/algebra/raiz-de-una-potencia/1/",
+              "tip": "Recuerda siempre volver a convertir las potencias fraccionarias en raíces cuadradas, si no recuerdas como hacerlo, puedes consultar las ayudas de link y video"
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f(x)=\\frac{8\\sqrt[5]{x^{3}}-22\\sqrt[5]{x^{23}}-21\\sqrt[5]{x^{8}}}{5(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": true,
+                "id": "solucion_2_1_5_1"
+              },
+              {
+                "solucion": "\\[f(x)=\\frac{8\\sqrt[5]{x^{4}}-22\\sqrt[5]{x^{23}}-21\\sqrt[8]{x^{8}}}{5(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_5_2"
+              },
+              {
+                "solucion": "\\[f(x)=\\frac{8\\sqrt[5]{x^{3}}-22\\sqrt[5]{x^{24}}-21\\sqrt[x]{x^{8}}}{5(x^{5}+3x^{2}-4x)^{2}}\\]",
+                "tag": false,
+                "id": "solucion_2_1_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=Z_5uqNVIbK8",
+              "link": "https://edu.gcfglobal.org/es/algebra/raiz-de-una-potencia/1/",
+              "tip": "Recuerda siempre volver a convertir las potencias fraccionarias en raíces cuadradas, si no recuerdas como hacerlo, puedes consultar las ayudas de link y video"
+            }
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "tag": "derivada_2_2",
+        "derivada": "\\[f(x)=\\frac{ln(x)}{cos(x)}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{(cos(x))*\\frac{1}{x}-(ln(x))*(-sin(x))}{(cos(x)^2)}\\]",
+                "tag": true,
+                "id": "solucion_2_2_1_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(sin(x))*\\frac{1}{x}-(ln(3))*(-sin(x^3))}{(cos(x)^2)}\\]",
+                "tag": false,
+                "id": "solucion_2_2_1_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{(cos(x))*\\frac{1}{x}-(ln(x))*(-csc(x))}{(cos(x)^2)}\\]",
+                "tag": false,
+                "id": "solucion_2_2_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=wl1joYQQ3CI&t=95s",
+              "link": "https://www.neurochispas.com/wiki/derivada-de-logaritmo-natural-lnx-demostracion-y-graficas/",
+              "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado. Recuerda que puedes consultar el icono de PI para desplegar las formulas para poder derivar logaritmos y razones trigonométricas"
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-sin(x)ln(x))}{cos^2(x)}\\]",
+                "tag": true,
+                "id": "solucion_1_2_2_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-csc(x)ln(x))}{sin^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_2_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-tan(x)ln(x))}{cos^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Simplifica la expresión con algebra"
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+sin(x)ln(x)}{cos^2(x)}\\]",
+                "tag": true,
+                "id": "solucion_1_2_3_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+cos(x)ln(x)}{cos^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_3_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x^2)}{x}+sin(x)ln(x)}{cos^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Simplifica la expresión con algebra"
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+\\frac{x~sin(x) ln(x)}{x}}{cos^{2}(x)}\\]",
+                "tag": true,
+                "id": "solucion_1_2_4_1"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+\\frac{x~sin(x^4) ln(x)}{x}}{cos^{2}(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_4_2"
+              },
+              {
+                "solucion": "\\[f'(x)=\\frac{\\frac{sen(x)}{x}+\\frac{x~tan(x) ln(x)}{x}}{cos^{2}(x)}\\]",
+                "tag": false,
+                "id": "solucion_1_2_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": "",
+              "tip": "\\textbf{Tip:} Divide cada término del numerador por el denominador para simplificar la fracción."
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f(x)=\\frac{cos(x)+x~sin(x)ln(x)}{x~cos^2(x)}\\]",
+                "tag": true,
+                "id": "solucion_1_2_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = 1 + \\frac{4}{2x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = 3 + \\frac{1}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_2_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 3,
+        "tag": "derivada_1_3",
+        "derivada": "\\[f(x) = \\frac{x + 2}{x - 2}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x^2 - 2)(4) - (2x + 2)(1)}{(2x - 2)}\\]",
+                "tag": false,
+                "id": "solucion_1_3_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{x - 2 - x - 2}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x - 2x - x - 2}{(x^2 - 2)}\\]",
+                "tag": false,
+                "id": "solucion_1_3_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x^2 - 2 - x - 2x}{(x - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-4}{(x - 2)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_3_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4}{(x - 2x)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-2}{(x^2 - 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_3_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 4,
+        "tag": "derivada_1_4",
+        "derivada": "\\[f(x) = \\frac{2x^2 + 3x + 1}{x^2 + 1}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x^2 + 1)(4x + 3) - (2x^2 + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 2)(4 + 3) - (x^2 + 3x)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 + 1)(4x + 3) - (2x + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x^3 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^2 + 3x^2 + 4) - (x^3 + 6x^2 + 2x)}{(x^2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x2 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^2 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^3 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{4x^2 + 3x^2 + 4x + 3 - 4x^3 - 8x^2 - 2x}{(x^2 + 1)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^2 + 2x + 3}{(x^2 + 1)^2}\\]",
+                "tag": true,
+                "id": "solucion_1_4_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2 + 2x - 3}{(x^2 + 2)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-2x^2 + 2x + 3}{(x^2 + 6)^2}\\]",
+                "tag": false,
+                "id": "solucion_1_4_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "indice": 5,
+        "tag": "derivada_1_5",
+        "derivada": "\\[f(x) = \\frac{sin(x)}{x}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(cos(x)) - (sin(x))(1)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(-cos(x)) - (cos(2x))(1)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(x)(cos(2x)) - (csc(x))(1)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_1_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\sin(x)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x^2) - \\sin(2x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\tan(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "tag": true,
+                "id": "solucion_1_5_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{\\csc(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\tan(x)}{x^2}\\]",
+                "tag": false,
+                "id": "solucion_1_5_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "",
+              "link": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

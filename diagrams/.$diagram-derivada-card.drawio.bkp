@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-05-17T03:28:56.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="cnGbjFpnN4ngAp6gJCqR" version="24.2.5" type="device">
+  <diagram name="Page-1" id="QV8EYSUR_9nYJMlyHOn_">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EIpBPT6qNjuwGeGstasM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EIpBPT6qNjuwGeGstasM-1" target="EIpBPT6qNjuwGeGstasM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-1" value="Derivada&lt;br style=&quot;font-size: 13px;&quot;&gt;f(x)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-7" value="&lt;b&gt;Contenedor de Soluciones&lt;/b&gt;&lt;div&gt;&lt;b&gt;ID:#&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="670" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-12" value="Soluciones" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;spacingTop=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="480" width="635" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-13" value="&lt;b&gt;Posible Solucion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="520" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-14" value="&lt;b&gt;f&#39;(x)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-15" value="&lt;b&gt;Tag:&lt;/b&gt;correcto/incorrecto" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-2" value="&lt;b&gt;Posible Solucion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="520" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-5" value="&lt;b&gt;f&#39;(x)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-6" value="&lt;b&gt;Tag:&lt;/b&gt;correcto/incorrecto" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-8" value="&lt;b&gt;Posible Solucion&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="660" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-9" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;f&#39;(x)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-10" value="&lt;b&gt;Tag:&lt;/b&gt;correcto/incorrecto" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="750" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIpBPT6qNjuwGeGstasM-16" value="Contenido de ayuda" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;verticalAlign=top;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="310" width="635" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
