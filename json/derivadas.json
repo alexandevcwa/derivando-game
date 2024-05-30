@@ -163,9 +163,9 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": "",
+              "post": "#",
+              "video": "#",
+              "link": "#",
               "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
             }
           },
@@ -189,9 +189,9 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": "",
+              "post": "#",
+              "video": "#",
+              "link": "#",
               "tip": "Asegúrate de distribuir correctamente el signo negativo al expandir la resta en el numerador."
             }
           },
@@ -215,9 +215,9 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": "",
+              "post": "#",
+              "video": "#",
+              "link": "#",
               "tip": "Simplifica el numerador combinando términos semejantes antes de proceder a la división. \\[x= a^2 + a^2\\] \\[x=2a^2\\]"
             }
           },
@@ -241,9 +241,9 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": "",
+              "post": "#",
+              "video": "#",
+              "link": "#",
               "tip": "Divide los términos semejantes del numerador y el demonizado que estén multiplicando para anularlos y simplificar la función \\[ x=\\frac{ab}{ac}\\]  \\[x=\\frac{b}{c}\\]"
             }
           },
@@ -385,7 +385,7 @@
               }
             ],
             "ayudas": {
-              "post": "",
+              "post": "#",
               "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
               "link": "https://www.neurochispas.com/wiki/regla-del-cociente-formula-demostracion-y-ejemplos/",
               "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
@@ -411,7 +411,7 @@
               }
             ],
             "ayudas": {
-              "post": "",
+              "post": "#",
               "video": "https://www.youtube.com/watch?v=cotRZEAIdJg",
               "link": "https://matesfacil.com/ESO/polinomios/multiplicar-polinomios-binomios-trinomios-producto-multiplicacion-ejercicios-resueltos.html",
               "tip": "Recuerda hacer la multiplicación de todos los términos para reducir los términos del numerador, puedes consultar las ayudas \\[x=(a^2 \\cdot a)\\] \\[x=a^3\\]"
@@ -463,7 +463,7 @@
               }
             ],
             "ayudas": {
-              "post": "",
+              "post": "#",
               "video": "https://www.youtube.com/watch?v=rpH6ub5na4Q",
               "link": "https://www.celeberrima.com/terminos-semejantes/",
               "tip": "Recuerda que debes operar todos los términos semejantes, si no recuerdas como hacerlo puedes consultar las ayudas externas. \\[x = a + 2a\\] \\[x=3a\\]"
@@ -548,9 +548,9 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": "",
+              "post": "#",
+              "video": "#",
+              "link": "#",
               "tip": "Recuerda que puedes simplificar dos fracciones que comparten el mismo denominador separando los términos del denominador en fracciones con el mismo denominador \\[x=\\frac{a+b}{z}\\] \\[x=\\frac{a}{z} + \\frac{b}{x}\\] Recuerda que puedes anular términos semejantes del numerador con el denominador \\[x=\\frac{ac}{bc}\\] \\[x=\\frac{a}{b}\\]"
             }
           }
@@ -735,17 +735,17 @@
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-sin(x)ln(x))}{cos^2(x)}\\]",
                 "tag": true,
-                "id": "solucion_1_2_2_1"
+                "id": "solucion_2_2_2_1"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-csc(x)ln(x))}{sin^2(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_2_2"
+                "id": "solucion_2_2_2_2"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}-(-tan(x)ln(x))}{cos^2(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_2_3"
+                "id": "solucion_2_2_2_3"
               }
             ],
             "ayudas": {
@@ -761,17 +761,17 @@
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+sin(x)ln(x)}{cos^2(x)}\\]",
                 "tag": true,
-                "id": "solucion_1_2_3_1"
+                "id": "solucion_2_2_3_1"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+cos(x)ln(x)}{cos^2(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_3_2"
+                "id": "solucion_2_2_3_2"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x^2)}{x}+sin(x)ln(x)}{cos^2(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_3_3"
+                "id": "solucion_2_2_3_3"
               }
             ],
             "ayudas": {
@@ -787,17 +787,17 @@
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+\\frac{x~sin(x) ln(x)}{x}}{cos^{2}(x)}\\]",
                 "tag": true,
-                "id": "solucion_1_2_4_1"
+                "id": "solucion_2_2_4_1"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{cos(x)}{x}+\\frac{x~sin(x^4) ln(x)}{x}}{cos^{2}(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_4_2"
+                "id": "solucion_2_2_4_2"
               },
               {
                 "solucion": "\\[f'(x)=\\frac{\\frac{sen(x)}{x}+\\frac{x~tan(x) ln(x)}{x}}{cos^{2}(x)}\\]",
                 "tag": false,
-                "id": "solucion_1_2_4_3"
+                "id": "solucion_2_2_4_3"
               }
             ],
             "ayudas": {
@@ -813,17 +813,17 @@
               {
                 "solucion": "\\[f(x)=\\frac{cos(x)+x~sin(x)ln(x)}{x~cos^2(x)}\\]",
                 "tag": true,
-                "id": "solucion_1_2_5_1"
+                "id": "solucion_2_2_5_1"
               },
               {
                 "solucion": "\\[f'(x) = 1 + \\frac{4}{2x^2}\\]",
                 "tag": false,
-                "id": "solucion_1_2_5_2"
+                "id": "solucion_2_2_5_2"
               },
               {
                 "solucion": "\\[f'(x) = 3 + \\frac{1}{x^2}\\]",
                 "tag": false,
-                "id": "solucion_1_2_5_3"
+                "id": "solucion_2_2_5_3"
               }
             ],
             "ayudas": {
@@ -1138,81 +1138,162 @@
       {
         "indice": 5,
         "tag": "derivada_2_5",
-        "derivada": "\\[f(x) = \\frac{sin(x)}{x}\\]",
+        "derivada": "\\[f(x) = \\frac{cos(x^3)}{sin(x^3)}\\]",
         "procedimiento": [
           {
             "id": 1,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{(x)(cos(x)) - (sin(x))(1)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{(sin(x^3)) \\cdot (-3x^2sin(x^3))-(cos(x^3)) \\cdot (3x^2 cos(x^3))}{(sin(x^3))^2}\\]",
                 "tag": true,
-                "id": "solucion_1_5_1_1"
+                "id": "solucion_2_5_1_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{(x)(-cos(x)) - (cos(2x))(1)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{(sin(x^3)) \\cdot (-3x^2sin(x^3))-(csc(x^3)) \\cdot (3x^2 cos(x^3))}{(cos(x^3))^2}\\]",
                 "tag": false,
-                "id": "solucion_1_5_1_2"
+                "id": "solucion_2_5_1_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{(x)(cos(2x)) - (csc(x))(1)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{(tan(x^3)) \\cdot (-3x^2sin(x^3))-(cos(x^3)) \\cdot (3x^2 cos(x^3))}{(sin(x^3))^2}\\]",
                 "tag": false,
-                "id": "solucion_1_5_1_3"
+                "id": "solucion_2_5_1_3"
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
+              "link": "https://www.neurochispas.com/wiki/regla-del-cociente-formula-demostracion-y-ejemplos/",
+              "tip": "Cuando no es posible simplificar fácilmente, usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\)"
             }
           },
           {
             "id": 2,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\sin(x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^2sin^2(x^3)-3x^2 cos^2(x^3)}{sin^2(x^3)}\\]",
                 "tag": true,
-                "id": "solucion_1_5_2_1"
+                "id": "solucion_2_5_2_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{x \\cos(x^2) - \\sin(2x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^2sin^2(x^3)-3x^2 csc^2(x^3)}{sin^2(x^3)}\\]",
                 "tag": false,
-                "id": "solucion_1_5_2_2"
+                "id": "solucion_2_5_2_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{x \\cos(x) - \\tan(x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^2tan^2(x^3)-3x^2 cos^2(x^3)}{sin^2(x^3)}\\]",
                 "tag": false,
-                "id": "solucion_1_5_2_3"
+                "id": "solucion_2_5_2_3"
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Recuerda operar el numerador con todas las operaciones necesarias para simplificar  algebraicamente y aplica identidades trigonométricas si corresponden, puede consultar las ayudas y el formulario. Puedes simplificar términos que se multiplican en el numerador y el denominador para eliminarlos \\[x = \\frac{ac}{bc}\\] \\[x = \\frac{a}{b}\\]"
             }
           },
           {
             "id": 3,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^3sin^2(x^3)-[3x^2(1-sin^2(x^3))]}{sin^2(x^3)}\\]",
                 "tag": true,
-                "id": "solucion_1_5_3_1"
+                "id": "solucion_2_5_3_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{\\csc(x)}{x} - \\frac{\\sin(x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^3tan^2(x^3)-[2x^2(1-sin^2(x^3))]}{sin^2(x^3)}\\]",
                 "tag": false,
-                "id": "solucion_1_5_3_2"
+                "id": "solucion_2_5_3_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{\\cos(x)}{x} - \\frac{\\tan(x)}{x^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{-3x^3sin^2(x^3)-[3x^2(1-csc^2(x^3))]}{sin^2(x^3)}\\]",
                 "tag": false,
-                "id": "solucion_1_5_3_3"
+                "id": "solucion_2_5_3_3"
               }
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Recuerda que si queremos expresar \\(cos^2(x)\\) en términos de \\(sin^2(x)\\), podemos despejar a la identidad anterior \\((1-sin^2(x))\\)"
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^3sin^2(x^3)-(3x^2-3x^2sin^2(x^3))}{sin^2(x^3)}\\]",
+                "tag": true,
+                "id": "solucion_2_5_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^3tan^2(x^3)}{sin^2(x^3)}\\]",
+                "tag": false,
+                "id": "solucion_2_5_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^3sin^2(x^3)-[3x^2(1-csc^2(x^3))]}{sin^2(x^3)}\\]",
+                "tag": false,
+                "id": "solucion_2_5_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Has las operaciones correspondientes en el numerador de la función"
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^2}{-sin^2(x^3)}\\]",
+                "tag": true,
+                "id": "solucion_2_5_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^4}{-tan^2(x^3)}\\]",
+                "tag": false,
+                "id": "solucion_2_5_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{-3x^2}{sin^2(x^3)}\\]",
+                "tag": false,
+                "id": "solucion_2_5_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Has las operaciones correspondientes para reducir los términos del numerador, puedes utilizar suma y resta de polinomios"
+            }
+          },
+          {
+            "id": 6,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = -3x^2 \\cdot csc^2(c^3)\\]",
+                "tag": true,
+                "id": "solucion_2_5_6_1"
+              },
+              {
+                "solucion": "\\[f'(x) = -3x^2\\]",
+                "tag": false,
+                "id": "solucion_2_5_6_2"
+              },
+              {
+                "solucion": "\\[f'(x) = -3x^2 \\cdot tan^2(c^3)\\]",
+                "tag": false,
+                "id": "solucion_2_5_6_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Recuerda que las puedes expresar \\(sin(x)\\) como \\(\\frac{1}{csc(x)}\\)"
             }
           }
         ]
