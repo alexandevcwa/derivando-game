@@ -22,7 +22,6 @@ function cargarDerivadas(nivel) {
   httpRequest.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       nivelesLista = JSON.parse(this.responseText);
-      alert(this.id);
       mostrarListadoDerivadasMenu(nivel);
     }
   };
@@ -174,7 +173,7 @@ function crearFormatoHTMLProcedimiento(procedimiento, childCompleto = true) {
     return `
     <li class="derivada__procedimiento">
       <div class="derivada__ayudas">
-        <h3 class="procedimiento__ayuda-titulo">AYUDAS PARA RESOLVER</h2>
+        <h3 class="procedimiento__ayuda-titulo">AYUDAS PARA RESOLVER PROCEDIMIENTO #1</h2>
         <p class="derivada__ayuda">
         <spam class="derivada__ayuda-tip">
         💡 ${procedimiento.ayudas.tip}
@@ -215,8 +214,9 @@ function crearFormatoHTMLProcedimiento(procedimiento, childCompleto = true) {
   }
 
   return `
+  <hr>
   <div class="derivada__ayudas">
-        <h3 class="procedimiento__ayuda-titulo">AYUDAS PARA RESOLVER</h3>
+        <h3 class="procedimiento__ayuda-titulo">AYUDAS PARA RESOLVER PROCEDIMIENTO #${procedimiento.id}</h3>
         <p class="derivada__ayuda">
         <spam class="derivada__ayuda-tip">
         💡 ${procedimiento.ayudas.tip}

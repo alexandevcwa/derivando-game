@@ -59,6 +59,21 @@
   background-color: white;
 }
 
+.game__meme {
+  border-radius: 0.8rem;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.game__meme > img {
+  width: 100%;
+}
+
 .game__derivadas-container {
   margin-bottom: 2rem;
 }

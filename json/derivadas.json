@@ -166,7 +166,7 @@
               "post": "",
               "video": "",
               "link": "",
-              "tip": "\\textbf{Tip:} Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
+              "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
             }
           },
           {
@@ -192,7 +192,7 @@
               "post": "",
               "video": "",
               "link": "",
-              "tip": "\\textbf{Tip:} Asegúrate de distribuir correctamente el signo negativo al expandir la resta en el numerador."
+              "tip": "Asegúrate de distribuir correctamente el signo negativo al expandir la resta en el numerador."
             }
           },
           {
@@ -218,7 +218,7 @@
               "post": "",
               "video": "",
               "link": "",
-              "tip": "\\textbf{Tip:} Simplifica el numerador combinando términos semejantes antes de proceder a la división."
+              "tip": "Simplifica el numerador combinando términos semejantes antes de proceder a la división. \\[x= a^2 + a^2\\] \\[x=2a^2\\]"
             }
           },
           {
@@ -244,7 +244,7 @@
               "post": "",
               "video": "",
               "link": "",
-              "tip": "\\textbf{Tip:} Divide cada término del numerador por el denominador para simplificar la fracción."
+              "tip": "Divide los términos semejantes del numerador y el demonizado que estén multiplicando para anularlos y simplificar la función \\[ x=\\frac{ab}{ac}\\]  \\[x=\\frac{b}{c}\\]"
             }
           },
           {
@@ -267,9 +267,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "SELECCIONA EL RESULTADO"
             }
           }
         ]
@@ -299,9 +300,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
+              "link": "https://www.neurochispas.com/wiki/regla-del-cociente-formula-demostracion-y-ejemplos/",
+              "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
             }
           },
           {
@@ -324,9 +326,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda hacer todas las operaciones necesarias en el numerador, ten en cuenta los signos negativos"
             }
           },
           {
@@ -349,9 +352,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda que debes de hacer las operaciones necesarias en el numerador, multiplicación, division, suma o resta de términos semejantes \\[x = a^2 + a^2\\] \\[x = 2a^2\\]"
             }
           }
         ]
@@ -382,8 +386,9 @@
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
+              "link": "https://www.neurochispas.com/wiki/regla-del-cociente-formula-demostracion-y-ejemplos/",
+              "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
             }
           },
           {
@@ -407,8 +412,9 @@
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=cotRZEAIdJg",
+              "link": "https://matesfacil.com/ESO/polinomios/multiplicar-polinomios-binomios-trinomios-producto-multiplicacion-ejercicios-resueltos.html",
+              "tip": "Recuerda hacer la multiplicación de todos los términos para reducir los términos del numerador, puedes consultar las ayudas \\[x=(a^2 \\cdot a)\\] \\[x=a^3\\]"
             }
           },
           {
@@ -431,9 +437,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda operar los signos con paréntesis para no equivocarse con los signos \\[x=-(x+1)\\] \\[x=-x-1\\]"
             }
           },
           {
@@ -457,8 +464,9 @@
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=rpH6ub5na4Q",
+              "link": "https://www.celeberrima.com/terminos-semejantes/",
+              "tip": "Recuerda que debes operar todos los términos semejantes, si no recuerdas como hacerlo puedes consultar las ayudas externas. \\[x = a + 2a\\] \\[x=3a\\]"
             }
           }
         ]
@@ -488,9 +496,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
+              "link": "https://www.neurochispas.com/wiki/regla-del-cociente-formula-demostracion-y-ejemplos/",
+              "tip": "Usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\). Deriva el numerador y el denominador por separado."
             }
           },
           {
@@ -513,9 +522,10 @@
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda hacer todas las operaciones necesarias en el numerador, ten en cuenta los signos negativos"
             }
           },
           {
@@ -540,7 +550,8 @@
             "ayudas": {
               "post": "",
               "video": "",
-              "link": ""
+              "link": "",
+              "tip": "Recuerda que puedes simplificar dos fracciones que comparten el mismo denominador separando los términos del denominador en fracciones con el mismo denominador \\[x=\\frac{a+b}{z}\\] \\[x=\\frac{a}{z} + \\frac{b}{x}\\] Recuerda que puedes anular términos semejantes del numerador con el denominador \\[x=\\frac{ac}{bc}\\] \\[x=\\frac{a}{b}\\]"
             }
           }
         ]
@@ -739,9 +750,9 @@
             ],
             "ayudas": {
               "post": "#",
-              "video": "#",
-              "link": "#",
-              "tip": "Simplifica la expresión con algebra"
+              "video": "https://www.youtube.com/watch?v=zYM93DA5S7A",
+              "link": "https://www.matematicatuya.com/NIVELACION/ALGEBRA/Simplificar/polinomios.html",
+              "tip": "Simplifica la expresión con algebra y recuerda operar siempre los signos que se encuentran fuera de los paréntesis"
             }
           },
           {
@@ -791,9 +802,9 @@
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": "",
-              "tip": "\\textbf{Tip:} Divide cada término del numerador por el denominador para simplificar la fracción."
+              "video": "https://www.youtube.com/watch?v=HgeQpdmPbeU",
+              "link": "https://www.matematicas18.com/es/tutoriales/aritmetica/fracciones/suma-de-fracciones/",
+              "tip": "Recuerda que debes de operar las sumas de fracciones para simplificar, La suma de dos fracciones se puede expresar como: \\[\\frac{a}{b} + \\frac{c}{d} = \\frac{a \\cdot d + b \\cdot c}{b \\cdot d}\\]"
             }
           },
           {
@@ -817,204 +828,316 @@
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=1qNWFq_K37E",
+              "link": "https://flamath.com/division-fracciones",
+              "tip": "Para llegar a la respuesta final puedes ley de extremos y medios \\[r = \\frac{\\frac{a}{b}}{\\frac{c}{d}}\\]"
             }
           }
         ]
       },
       {
         "indice": 3,
-        "tag": "derivada_1_3",
-        "derivada": "\\[f(x) = \\frac{x + 2}{x - 2}\\]",
+        "tag": "derivada_2_3",
+        "derivada": "\\[f(x) = \\frac{x^2}{e^{2x}}\\]",
         "procedimiento": [
           {
             "id": 1,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{(x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "solucion": "\\[f(x)=\\frac{(e^{2x})\\cdot(2x)-(x^{2})\\cdot(2e^{2x})}{(e^{2x})^{2}}\\]",
                 "tag": true,
-                "id": "solucion_1_3_1_1"
+                "id": "solucion_2_3_1_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{(2x - 2)(1) - (x + 2)(1)}{(x - 2)^2}\\]",
+                "solucion": "\\[f(x)=\\frac{(x^{2x})\\cdot(x)-(x^{2})\\cdot(2e^{2x})}{(e^{2x})^{2}}\\]",
                 "tag": false,
-                "id": "solucion_1_3_1_2"
+                "id": "solucion_2_3_1_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{(x^2 - 2)(4) - (2x + 2)(1)}{(2x - 2)}\\]",
+                "solucion": "\\[f(x)=\\frac{(e^{2x})\\cdot(4x)-(x^{2})\\cdot(2e^{2x})}{(e^{2x})^{2}}\\]",
                 "tag": false,
-                "id": "solucion_1_3_1_3"
+                "id": "solucion_2_3_1_3"
               }
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=-ERPBH3KAPY",
+              "link": "https://www.funciones.xyz/derivada-de-la-funcion-exponencial/",
+              "tip": "En el denominador tiene una función exponencial, recuerda que la formula para derivar una función exponencial es la siguiente: \\[f(x) = a^{g(x)}\\] \\[f'(x) = a^{g(x)} \\cdot ln(a) \\cdot g'(x)\\]. Multiplica los términos del numerador para simplificar la función"
             }
           },
           {
             "id": 2,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{x - 2 - x - 2}{(x - 2)^2}\\]",
+                "solucion": "\\[f'(x)=\\frac{(2xe^{2x})-(2x^{2}e^{2x})}{(e^{2x})^{2}}\\]",
                 "tag": true,
-                "id": "solucion_1_3_2_1"
+                "id": "solucion_2_3_2_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{x - 2x - x - 2}{(x^2 - 2)}\\]",
+                "solucion": "\\[f'(x)=\\frac{(2xe^{4x})-(2x^{4}e^{2x})}{(e^{2x})^{2}}\\]",
                 "tag": false,
-                "id": "solucion_1_3_2_2"
+                "id": "solucion_2_3_2_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{x^2 - 2 - x - 2x}{(x - 2)^2}\\]",
+                "solucion": "\\[f'(x)=\\frac{(2xe^{2x})-(2x^{2}e^{2x})}{(e^{x})^{2}}\\]",
                 "tag": false,
-                "id": "solucion_1_3_2_3"
+                "id": "solucion_2_3_2_3"
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "",
+              "tip": "Recuerda que al tener términos restando en el numerados y un solo termino dividiendo en el denominador, puedes separar las fracciones por con el mismo denominador \\[\\frac{a-b}{c}\\] \\[\\frac{a}{c} - \\frac{b}{c}\\]"
             }
           },
           {
             "id": 3,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{-4}{(x - 2)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2xe^{2x}}{(e^{2x})^2}-\\frac{2x^2e^{2x}}{(e^{2x})^2}\\]",
                 "tag": true,
-                "id": "solucion_1_3_3_1"
+                "id": "solucion_2_3_3_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{4}{(x - 2x)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2xe^{2x}}{(e^{4x})^2}-\\frac{2x^2e^{2x}}{(e^{2x})^2}\\]",
                 "tag": false,
-                "id": "solucion_1_3_3_2"
+                "id": "solucion_2_3_3_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{-2}{(x^2 - 2)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2xe^{2x}}{(e^{2x})^2}-\\frac{2x^2e^{2x}}{(e^{2x})^10}\\]",
                 "tag": false,
-                "id": "solucion_1_3_3_3"
+                "id": "solucion_2_3_3_3"
               }
             ],
             "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
-            }
-          }
-        ]
-      },
-      {
-        "indice": 4,
-        "tag": "derivada_1_4",
-        "derivada": "\\[f(x) = \\frac{2x^2 + 3x + 1}{x^2 + 1}\\]",
-        "procedimiento": [
-          {
-            "id": 1,
-            "soluciones": [
-              {
-                "solucion": "\\[f'(x) = \\frac{(x^2 + 1)(4x + 3) - (2x^2 + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
-                "tag": true,
-                "id": "solucion_1_4_1_1"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{(2x^2 + 2)(4 + 3) - (x^2 + 3x)(2x)}{(x^2 + 1)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_1_2"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{(2x^2 + 1)(4x + 3) - (2x + 3x + 1)(2x)}{(x^2 + 1)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_1_3"
-              }
-            ],
-            "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
-            }
-          },
-          {
-            "id": 2,
-            "soluciones": [
-              {
-                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x^3 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
-                "tag": true,
-                "id": "solucion_1_4_2_1"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{(4x^2 + 3x^2 + 4) - (x^3 + 6x^2 + 2x)}{(x^2)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_2_2"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{(4x^3 + 3x^2 + 4x + 3) - (4x2 + 6x^2 + 2x)}{(x^2 + 1)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_2_3"
-              }
-            ],
-            "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
-            }
-          },
-          {
-            "id": 3,
-            "soluciones": [
-              {
-                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^2 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x^2 + 1)^2}\\]",
-                "tag": true,
-                "id": "solucion_1_4_3_1"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{4x^3 + 3x^3 + 4x + 3 - 4x^3 - 6x^2 - 2x}{(x + 1)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_3_2"
-              },
-              {
-                "solucion": "\\[f'(x) = \\frac{4x^2 + 3x^2 + 4x + 3 - 4x^3 - 8x^2 - 2x}{(x^2 + 1)^2}\\]",
-                "tag": false,
-                "id": "solucion_1_4_3_3"
-              }
-            ],
-            "ayudas": {
-              "post": "",
-              "video": "",
-              "link": ""
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Simplifica las fracciones eliminando términos del numerador y del denominador \\[x=\\frac{ac}{bc}\\] \\[x=\\frac{a}{b}\\]"
             }
           },
           {
             "id": 4,
             "soluciones": [
               {
-                "solucion": "\\[f'(x) = \\frac{-3x^2 + 2x + 3}{(x^2 + 1)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2x}{e^{2x}}-\\frac{2x^2}{e^{2x}}\\]",
                 "tag": true,
-                "id": "solucion_1_4_4_1"
+                "id": "solucion_2_3_4_1"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{3x^2 + 2x - 3}{(x^2 + 2)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2x}{e^{8x}}-\\frac{2x^2}{e^{2x}}\\]",
                 "tag": false,
-                "id": "solucion_1_4_4_2"
+                "id": "solucion_2_3_4_2"
               },
               {
-                "solucion": "\\[f'(x) = \\frac{-2x^2 + 2x + 3}{(x^2 + 6)^2}\\]",
+                "solucion": "\\[f'(x) = \\frac{2x}{e^{2x}}-\\frac{5x^2}{e^{3x}}\\]",
                 "tag": false,
-                "id": "solucion_1_4_4_3"
+                "id": "solucion_2_3_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda que puedes simplificar el denominador si en las dos fracciones son iguales \\[\\frac{a-b}{c}\\] \\[\\frac{a}{c} - \\frac{b}{c}\\]"
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{2x-2x^2}{e^{2x}}\\]",
+                "tag": true,
+                "id": "solucion_2_3_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{x-2x^2}{e^{2x}}\\]",
+                "tag": false,
+                "id": "solucion_2_3_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{2x-2x^2}{e^{x}}\\]",
+                "tag": false,
+                "id": "solucion_2_3_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "SELECCIONA EL RESULTADO"
+            }
+          }
+        ]
+      },
+      {
+        "indice": 4,
+        "tag": "derivada_2_4",
+        "derivada": "\\[f(x) = \\frac{x^3}{sin^2(x)}\\]",
+        "procedimiento": [
+          {
+            "id": 1,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(sin^2(x)) \\cdot (3x^2) - (x^3) \\cdot (2sin(x) cos(x))}{(sin^2(x))^2}\\]",
+                "tag": true,
+                "id": "solucion_2_4_1_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(cos^2(x)) \\cdot (3x^2) - (x^2) \\cdot (2sin(x) csc(x))}{(sin^2(x))^2}\\]",
+                "tag": false,
+                "id": "solucion_2_4_1_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(sin(x)) \\cdot (3x^2) - (x^2) \\cdot (2sin(x) cos(x))}{(sin^2(x))^2}\\]",
+                "tag": false,
+                "id": "solucion_2_4_1_3"
               }
             ],
             "ayudas": {
               "post": "",
-              "video": "",
-              "link": ""
+              "video": "https://www.youtube.com/watch?v=HUq8qmH68x8&t=438s",
+              "link": "https://economipedia.com/definiciones/derivada-de-una-division.html",
+              "tip": "Cuando no es posible simplificar fácilmente, usa la regla del cociente: si \\( f(x) = \\frac{g(x)}{h(x)} \\), entonces \\( f'(x) = \\frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2} \\)."
+            }
+          },
+          {
+            "id": 2,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{(3x^2 sin(x)) - (2x^3 sin(x) cos(x))}{sin^4(x)}\\]",
+                "tag": true,
+                "id": "solucion_2_4_2_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(3x^2 csc(x)) - (2x^3 sin(x) tan(x))}{sin^4(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_2_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{(2x^2 sin(x)) - (2x^3 sin(x) cos(x))}{sin^4(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_2_3"
+              }
+            ],
+            "ayudas": {
+              "post": "",
+              "video": "https://www.youtube.com/watch?v=PbvKVSWyvpI&list=PLeySRPnY35dHK3mo8UWd3zAnYCG13OgAR",
+              "link": "https://www.significados.com/identidades-trigonometricas/",
+              "tip": "Simplifica algebraicamente y aplica identidades trigonométricas, si no recuerdas como hacerlo, puedes consultar el formulario, video de apoyo y link de apoyo."
+            }
+          },
+          {
+            "id": 3,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2sin^2(x)}{sin^4(x)} - \\frac{2x^3sin(x)cos(x)}{sin^4(x)} \\]",
+                "tag": true,
+                "id": "solucion_2_4_3_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{2x^2sin^2(x)}{sin^4(x)} - \\frac{2x^3sin(x)tan(x)}{sin^4(x)} \\]",
+                "tag": false,
+                "id": "solucion_2_4_3_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2tab^2(x)}{sin^4(x)} - \\frac{2x^3sin(x)cos(x)}{sin^4(x)} \\]",
+                "tag": false,
+                "id": "solucion_2_4_3_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Simplifica las fracciones eliminando términos del numerador y del denominador \\[x=\\frac{ac}{bc}\\] \\[x=\\frac{a}{b}\\]"
+            }
+          },
+          {
+            "id": 4,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2}{sin^2(x)} - \\frac{2x^3 cos(x)}{sin^3(x)}\\]",
+                "tag": true,
+                "id": "solucion_2_4_4_1"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2}{cos^2(x)} - \\frac{2x^3 cos(x)}{sin^3(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_4_2"
+              },
+              {
+                "solucion": "\\[f'(x) = \\frac{3x^2}{sin^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_4_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Simplifica las fracciones eliminando términos del numerador y del denominador \\[x=\\frac{ac}{bc}\\] \\[x=\\frac{a}{b}\\]"
+            }
+          },
+          {
+            "id": 5,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = 3x^2 csc^2-2x \\cdot \\frac{cos(x)}{sin(x)} \\cdot \\frac{1}{sin^2(x)}\\]",
+                "tag": true,
+                "id": "solucion_2_4_5_1"
+              },
+              {
+                "solucion": "\\[f'(x) = 3x sin^2-2x \\cdot \\frac{cos(x)}{sin(x)} \\cdot \\frac{1}{sin^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_5_2"
+              },
+              {
+                "solucion": "\\[f'(x) = 3x^2 csc^2-2x \\cdot \\frac{cos(x)}{sin(x)} \\cdot \\frac{1}{tan^2(x)}\\]",
+                "tag": false,
+                "id": "solucion_2_4_5_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "Recuerda que para simplificar dos fracciones que se están restando con diferente denominador debes de operarlas \\[x = (\\frac{a}{b})-(\\frac{c}{d})\\] \\[x = \\frac{(a \\cdot d)-(c \\cdot b)}{b \\cdot d}\\]"
+            }
+          },
+          {
+            "id": 6,
+            "soluciones": [
+              {
+                "solucion": "\\[f'(x) = 3x^2 csc^2(x)-2x^3 cot(x) csc^2(x)\\]",
+                "tag": true,
+                "id": "solucion_2_4_6_1"
+              },
+              {
+                "solucion": "\\[f'(x) = 3x^2 tan(x)-2x^3 cot(x) csc^2(x)\\]",
+                "tag": false,
+                "id": "solucion_2_4_6_2"
+              },
+              {
+                "solucion": "\\[f'(x) = -sen^2(x)-2x^3 cot(x) csc^2(x)\\]",
+                "tag": false,
+                "id": "solucion_2_4_6_3"
+              }
+            ],
+            "ayudas": {
+              "post": "#",
+              "video": "#",
+              "link": "#",
+              "tip": "SELECCIONA EL RESULTADO"
             }
           }
         ]
       },
       {
         "indice": 5,
-        "tag": "derivada_1_5",
+        "tag": "derivada_2_5",
         "derivada": "\\[f(x) = \\frac{sin(x)}{x}\\]",
         "procedimiento": [
           {
