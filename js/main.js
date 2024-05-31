@@ -105,9 +105,12 @@ function cargarDerivadaDOM(derivada, procedimientoID = 0) {
 
         derivada.procedimiento[0].soluciones.forEach((solucion) => {
           if (solucion.tag == true) {
-            let button = document.getElementById(solucion.id);
-            button.addEventListener("click", function () {
+            let button_solution = document.getElementById(solucion.id);
+            button_solution.addEventListener("click", function () {
               procedimientoID++;
+              button_solution.style.background = 'green';
+              button_solution.disabled = true;
+              button_solution.textContent = "PROCEDIMIENTO CORRECTO"
               cargarProcedimientoSecuencial(procedimientoID, derivada.procedimiento)
             }, true);
           } else {
@@ -143,7 +146,7 @@ function cargarProcedimientoSecuencial(
         derivadaProcedimiento.appendChild(child);
         MathJax.typesetPromise();
 
-        //let procedimientoCorrecto = procedimientos[procedimientoId].soluciones.find((proc) => proc.tag == true);
+        procedimientoCorrecto = procedimientos[procedimientoId].soluciones.find((proc) => proc.tag == true);
 
         //let procedimientoCorrectoButton = document.getElementById(procedimientoCorrecto.id);
 
@@ -151,6 +154,10 @@ function cargarProcedimientoSecuencial(
           if (solucion.tag) {
             document.getElementById(solucion.id).addEventListener("click", function () {
               procedimientoId += 1;
+              let button_solution = document.getElementById(solucion.id);
+              button_solution.style.background = 'green';
+              button_solution.disabled = true;
+              button_solution.textContent = "PROCEDIMIENTO CORRECTO"
               cargarProcedimientoSecuencial(procedimientoId, procedimientos);
             });
           } else {
@@ -159,6 +166,8 @@ function cargarProcedimientoSecuencial(
             });
           }
         });
+        //Mover Scroll de página a la derivada
+        document.getElementById(procedimientoCorrecto.id).scrollIntoView({ behavior: 'smooth' });
       });
     } else {
       dialog_informacion.showModal();
@@ -267,6 +276,12 @@ document
   .getElementById("nivel_2")
   .addEventListener("click", function () {
     cargarDerivadas(1);
+  }, true);
+
+document
+  .getElementById("nivel_3")
+  .addEventListener("click", function () {
+    cargarDerivadas(2);
   }, true);
 
 
