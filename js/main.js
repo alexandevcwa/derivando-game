@@ -35,7 +35,7 @@ function mostrarListadoDerivadasMenu(nivel) {
       document.getElementById("game-container").innerHTML = null;
 
       let derivadasLista = nivelesLista[nivel].derivadas;
-      let derivadasHTML = `<h2 class="game__derivadas-titulo">DERIVADAS POR MÉTODO DE DIVISION </h2>
+      let derivadasHTML = `<h2 class="game__derivadas-titulo">DERIVADAS POR MÉTODO DE COCIENTE (o división) </h2>
                            <ul class="derivadas__menu" id="derivadas-menu">`;
 
       derivadasLista.forEach((derivada) => {
@@ -79,7 +79,7 @@ function cargarDerivadaDOM(derivada, procedimientoID = 0) {
   document.getElementById("game-container").innerHTML = null;
 
   // Procedimiento Inicial para Resolver la Derivada
-  let derivadaHTML = `<h2 class="game__derivadas-titulo">RESUELVE LA SIGUIENTE DERIVADA</h2>
+  let derivadaHTML = `<h2 class="game__derivadas-titulo">RESUELVE LA SIGUIENTE DERIVADA DE UN COCIENTE (o división)</h2>
         <div class="derivada__container">
         <p class="derivada__resolver">${derivada.derivada}</p>
         <ul class="derivada__procedimiento-container" id="derivada-procedimiento">
